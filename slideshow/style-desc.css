@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+	background: linear-gradient(72deg, #3DE8B0 1%, #8956F3 99%);
+}
+
+header {
+	background: #a9a9a9;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+#banner {
+	width: 100%;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.principal {
+	padding: 30px;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 22px;
+}
+
+p {
+	text-align: center;
+}
+
+#desc {
+	font-size: 20px;
+	margin: 1.5px;
+	padding: 1.5px;
+}
+
+#missão {
+	font-size: 20px;
+	margin: 1.5px;
+	padding: 1.5px;
+}
+
+strong {
+	color: #FF0000;
+}
+
+em strong {
+	color: #FF0000;
+}
+
+footer {
+	text-align: center;
+	background: url("banner.png");
+	padding: 40px 0;
+}
+
+.rodape {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
